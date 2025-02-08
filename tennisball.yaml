@@ -1,0 +1,7 @@
+path: C:\VS CODE\computer vision\media\TennisBalls  # replace with the actual path
+train: train/images
+val: valid/images  # if you have a validation set, otherwise use test/images
+test: test/images
+
+nc: 1  # number of classes (assuming only tennis balls)
+names: ['tennis_ball']  # class names
